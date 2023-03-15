@@ -5,7 +5,7 @@
   },
   "tauri": {
     "bundle": {
-      "identifier": "sh.chip.hello_tauri",
+      "identifier": "im.gar.dev.hello_tauri",
       "icon": [
         "icon.png"
       ]
