@@ -16,12 +16,42 @@
 
             /* Vertically and horizontally center children of the body tag */
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
         }
+
+        a {
+            color: #cccccc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #ececec;
+        }
+
+        ul {
+            display: flex;
+            padding: 0;
+            margin: 0;
+            flex-direction: row;;
+            list-style: none;
+        }
+
+        ul>li>a{
+            padding: 0.1rem 0.2rem;
+        }
+
+
     </style>
 </head>
 <body>
 <h1>Hello, Tauri!</h1>
+<ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/Hello">Hello</a></li>
+    <li><a href="About">About</a></li>
+    <li><a href="Contact">Contact</a></li>
+</ul>
 </body>
 </html>
